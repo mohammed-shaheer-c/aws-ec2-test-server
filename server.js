@@ -3,7 +3,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 require('dotenv').config()
-const { dbConnection } = require('./config/db.config')
+// const { dbConnection } = require('./config/db.config')
 
 const app = express();
 
